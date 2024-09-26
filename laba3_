@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №3</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="logo.png" alt="Логотип компанії">
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Лабораторна робота №3</h1>
+            <p>Це секція з заголовком і коротким описом лабораторної роботи.</p>
+        </section>
+        <article>
+            <p>В article додайте текст та відцентруйте його.</p>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+
+
+/* Загальні стилі для всього проєкту */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стилі для header */
+header {
+  background-color: #4CAF50;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  max-width: 100px;
+}
+
+/* Стилі для main */
+main {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+/* Стилі для section */
+section {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border: 1px solid #00acc1;
+  text-align: center;
+}
+
+/* Стилі для article */
+article {
+  background-color: #fff3e0;
+  padding: 20px;
+  border: 1px solid #ffb74d;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Стилі для footer */
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
